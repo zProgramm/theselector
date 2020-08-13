@@ -18,7 +18,7 @@ client.on('message', message => {
 // Comando /ping
 
     if (msg === prefix + 'ping') {
-    message.channel.send('ponRg');
+    message.channel.send('Pong');
   }
 });
 
