@@ -18,8 +18,8 @@ client.on('message', message => {
 // Comando /ping
 
     if (msg === prefix + 'ping') {
-    message.channel.send('pong');
+    message.channel.send('ponRg');
   }
 });
 
-client.login(process.env.token);
+client.login(process.env.TOKEN);
